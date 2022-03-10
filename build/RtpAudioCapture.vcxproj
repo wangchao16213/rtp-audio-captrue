@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\core.cpp" />
+    <ClCompile Include="..\src\log.cpp" />
+    <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="..\src\ortp\avprofile.c" />
+    <ClCompile Include="..\src\ortp\b64.c" />
+    <ClCompile Include="..\src\ortp\event.c" />
+    <ClCompile Include="..\src\ortp\jitterctl.c" />
+    <ClCompile Include="..\src\ortp\netsim.c" />
+    <ClCompile Include="..\src\ortp\ortp.c" />
+    <ClCompile Include="..\src\ortp\ortp_srtp.c" />
+    <ClCompile Include="..\src\ortp\payloadtype.c" />
+    <ClCompile Include="..\src\ortp\port.c" />
+    <ClCompile Include="..\src\ortp\posixtimer.c" />
+    <ClCompile Include="..\src\ortp\rtcp.c" />
+    <ClCompile Include="..\src\ortp\rtcpparse.c" />
+    <ClCompile Include="..\src\ortp\rtpparse.c" />
+    <ClCompile Include="..\src\ortp\rtpsession.c" />
+    <ClCompile Include="..\src\ortp\rtpsession_inet.c" />
+    <ClCompile Include="..\src\ortp\rtpsignaltable.c" />
+    <ClCompile Include="..\src\ortp\rtptimer.c" />
+    <ClCompile Include="..\src\ortp\scheduler.c" />
+    <ClCompile Include="..\src\ortp\sessionset.c" />
+    <ClCompile Include="..\src\ortp\str_utils.c" />
+    <ClCompile Include="..\src\ortp\stun.c" />
+    <ClCompile Include="..\src\ortp\stun_udp.c" />
+    <ClCompile Include="..\src\ortp\telephonyevents.c" />
+    <ClCompile Include="..\src\ortp\utils.c" />
+    <ClCompile Include="..\src\ortp\zrtp.c" />
+    <ClCompile Include="..\src\wavwriter.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\core.h" />
+    <ClInclude Include="..\src\INIReader.h" />
+    <ClInclude Include="..\src\log.h" />
+    <ClInclude Include="..\src\ortp\b64.h" />
+    <ClInclude Include="..\src\ortp\event.h" />
+    <ClInclude Include="..\src\ortp\jitterctl.h" />
+    <ClInclude Include="..\src\ortp\ortp-config-win32.h" />
+    <ClInclude Include="..\src\ortp\ortp.h" />
+    <ClInclude Include="..\src\ortp\ortp_srtp.h" />
+    <ClInclude Include="..\src\ortp\payloadtype.h" />
+    <ClInclude Include="..\src\ortp\port.h" />
+    <ClInclude Include="..\src\ortp\rtcp.h" />
+    <ClInclude Include="..\src\ortp\rtp.h" />
+    <ClInclude Include="..\src\ortp\rtpsession.h" />
+    <ClInclude Include="..\src\ortp\rtpsession_priv.h" />
+    <ClInclude Include="..\src\ortp\rtpsignaltable.h" />
+    <ClInclude Include="..\src\ortp\rtptimer.h" />
+    <ClInclude Include="..\src\ortp\scheduler.h" />
+    <ClInclude Include="..\src\ortp\sessionset.h" />
+    <ClInclude Include="..\src\ortp\str_utils.h" />
+    <ClInclude Include="..\src\ortp\stun.h" />
+    <ClInclude Include="..\src\ortp\stun_udp.h" />
+    <ClInclude Include="..\src\ortp\telephonyevents.h" />
+    <ClInclude Include="..\src\ortp\utils.h" />
+    <ClInclude Include="..\src\ortp\zrtp.h" />
+    <ClInclude Include="..\src\wavwriter.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{4D928908-5EF6-4CC8-B85C-26BF5D85695D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>RtpAudioCapture</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions);WIN32;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;WIN32_LEAN_AND_MEAN;HAVE_CONFIG_H;ORTP_STATIC</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\src\;..\sdk\pthreads-w32\Include;..\sdk\pcapplusplus\Include;..\sdk\npcap\Include;..\sdk\opencore-amr\Include;..\sdk\portaudio\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ObjectFileName>$(IntDir)/%(RelativeDir)/</ObjectFileName>
+      <DisableSpecificWarnings>
+      </DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Ws2_32.lib;Winmm.lib;Qwave.lib;delayimp.lib;IPHLPAPI.lib;wpcap.lib;Packet.lib;pthreadVC2.lib;Common++.lib;Packet++.lib;Pcap++.lib;libopencore-amrwb-0.lib;libopencore-amrnb-0.lib;portaudio.lib</AdditionalDependencies>
+      <AdditionalOptions>/ignore:4099 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions);WIN32;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;WIN32_LEAN_AND_MEAN;HAVE_CONFIG_H;ORTP_STATIC</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\src\;..\sdk\pthreads-w32\Include;..\sdk\pcapplusplus\Include;..\sdk\npcap\Include;..\sdk\opencore-amr\Include;..\sdk\portaudio\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ObjectFileName>$(IntDir)/%(RelativeDir)/</ObjectFileName>
+      <DisableSpecificWarnings>
+      </DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\sdk\pthreads-w32\lib\x64;..\sdk\pcapplusplus\lib\x64;..\sdk\npcap\lib\x64;..\sdk\opencore-amr\lib\x64;..\sdk\portaudio\lib\x64</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Ws2_32.lib;Winmm.lib;Qwave.lib;delayimp.lib;IPHLPAPI.lib;wpcap.lib;Packet.lib;pthreadVC2.lib;Common++.lib;Packet++.lib;Pcap++.lib;libopencore-amrwb-0.lib;libopencore-amrnb-0.lib;portaudio.lib</AdditionalDependencies>
+      <AdditionalOptions>/ignore:4099 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions);WIN32;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;WIN32_LEAN_AND_MEAN;HAVE_CONFIG_H;ORTP_STATIC</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\src\;..\sdk\pthreads-w32\Include;..\sdk\pcapplusplus\Include;..\sdk\npcap\Include;..\sdk\opencore-amr\Include;..\sdk\portaudio\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ObjectFileName>$(IntDir)/%(RelativeDir)/</ObjectFileName>
+      <DisableSpecificWarnings>
+      </DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Ws2_32.lib;Winmm.lib;Qwave.lib;delayimp.lib;IPHLPAPI.lib;wpcap.lib;Packet.lib;pthreadVC2.lib;Common++.lib;Packet++.lib;Pcap++.lib;libopencore-amrwb-0.lib;libopencore-amrnb-0.lib;portaudio.lib</AdditionalDependencies>
+      <AdditionalOptions>/ignore:4099 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions);WIN32;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;WIN32_LEAN_AND_MEAN;HAVE_CONFIG_H;ORTP_STATIC</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>..\src\;..\sdk\pthreads-w32\Include;..\sdk\pcapplusplus\Include;..\sdk\npcap\Include;..\sdk\opencore-amr\Include;..\sdk\portaudio\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ObjectFileName>$(IntDir)/%(RelativeDir)/</ObjectFileName>
+      <DisableSpecificWarnings>
+      </DisableSpecificWarnings>
+      <AdditionalOptions>/Zo %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\sdk\pthreads-w32\lib\x64;..\sdk\pcapplusplus\lib\x64;..\sdk\npcap\lib\x64;..\sdk\opencore-amr\lib\x64;..\sdk\portaudio\lib\x64</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Ws2_32.lib;Winmm.lib;Qwave.lib;delayimp.lib;IPHLPAPI.lib;wpcap.lib;Packet.lib;pthreadVC2.lib;Common++.lib;Packet++.lib;Pcap++.lib;libopencore-amrwb-0.lib;libopencore-amrnb-0.lib;portaudio.lib</AdditionalDependencies>
+      <AdditionalOptions>/ignore:4099 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,71 @@
+﻿  core.cpp
+e:\workspace3\gprspro\sdk\pcapplusplus\include\tlvdata.h(35): warning C4200: 使用了非标准扩展: 结构/联合中的零大小数组
+  e:\workspace3\gprspro\sdk\pcapplusplus\include\tlvdata.h(35): note: 默认构造函数或 copy/move 赋值运算符将忽略此成员
+e:\workspace3\gprspro\sdk\pcapplusplus\include\ipv6extensions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\workspace3\gprspro\src\core.cpp(168): warning C4018: “<”: 有符号/无符号不匹配
+e:\workspace3\gprspro\src\core.cpp(192): warning C4244: “初始化”: 从“long”转换到“uint16_t”，可能丢失数据
+e:\workspace3\gprspro\src\core.cpp(286): warning C4018: “<”: 有符号/无符号不匹配
+e:\workspace3\gprspro\src\core.cpp(372): warning C4244: “初始化”: 从“long”转换到“uint16_t”，可能丢失数据
+e:\workspace3\gprspro\src\core.cpp(467): warning C4018: “<”: 有符号/无符号不匹配
+e:\workspace3\gprspro\src\core.cpp(725): warning C4018: “<”: 有符号/无符号不匹配
+  log.cpp
+e:\workspace3\gprspro\src\log.cpp(179): warning C4101: “lt”: 未引用的局部变量
+  main.cpp
+  正在生成代码...
+  avprofile.c
+  b64.c
+  event.c
+  jitterctl.c
+e:\workspace3\gprspro\src\ortp\jitterctl.c(77): warning C4244: “=”: 从“int64_t”转换到“int”，可能丢失数据
+e:\workspace3\gprspro\src\ortp\jitterctl.c(102): warning C4244: “=”: 从“int64_t”转换到“double”，可能丢失数据
+e:\workspace3\gprspro\src\ortp\jitterctl.c(103): warning C4244: “=”: 从“int64_t”转换到“int”，可能丢失数据
+e:\workspace3\gprspro\src\ortp\jitterctl.c(111): warning C4244: “=”: 从“int64_t”转换到“int”，可能丢失数据
+e:\workspace3\gprspro\src\ortp\jitterctl.c(113): warning C4244: “=”: 从“int64_t”转换到“int”，可能丢失数据
+e:\workspace3\gprspro\src\ortp\jitterctl.c(121): warning C4244: “=”: 从“double”转换到“int64_t”，可能丢失数据
+  netsim.c
+e:\workspace3\gprspro\src\ortp\netsim.c(75): warning C4244: “+=”: 从“__int64”转换到“int”，可能丢失数据
+  ortp.c
+e:\workspace3\gprspro\src\ortp\ortp.c(276): warning C4133: “函数”: 从“char *”到“LPCWSTR”的类型不兼容
+e:\workspace3\gprspro\src\ortp\ortp.c(277): warning C4133: “函数”: 从“char [3]”到“LPCWSTR”的类型不兼容
+  ortp_srtp.c
+  payloadtype.c
+e:\workspace3\gprspro\src\ortp\payloadtype.c(151): warning C4018: “>”: 有符号/无符号不匹配
+  port.c
+e:\workspace3\gprspro\src\ortp\port.c(479): warning C4133: “函数”: 从“char *”到“LPCWSTR”的类型不兼容
+e:\workspace3\gprspro\src\ortp\port.c(525): warning C4133: “函数”: 从“char *”到“LPCWSTR”的类型不兼容
+e:\workspace3\gprspro\src\ortp\port.c(579): warning C4133: “函数”: 从“char [64]”到“LPCWSTR”的类型不兼容
+e:\workspace3\gprspro\src\ortp\port.c(584): warning C4133: “函数”: 从“char [64]”到“LPCWSTR”的类型不兼容
+  posixtimer.c
+  rtcp.c
+e:\workspace3\gprspro\src\ortp\rtcp.c(224): warning C4244: “=”: 从“uint64_t”转换到“uint32_t”，可能丢失数据
+e:\workspace3\gprspro\src\ortp\rtcp.c(301): warning C4244: “初始化”: 从“float”转换到“uint32_t”，可能丢失数据
+e:\workspace3\gprspro\src\ortp\rtcp.c(419): warning C4244: “=”: 从“uint64_t”转换到“uint32_t”，可能丢失数据
+  rtcpparse.c
+  rtpparse.c
+  rtpsession.c
+e:\workspace3\gprspro\src\ortp\rtpsession.c(1408): warning C4996: 'GetVersionExW': 被声明为已否决
+  d:\windows kits\10\include\10.0.17763.0\um\sysinfoapi.h(387): note: 参见“GetVersionExW”的声明
+e:\workspace3\gprspro\src\ortp\rtpsession.c(1619): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\workspace3\gprspro\src\ortp\rtpsession.c(1620): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  rtpsession_inet.c
+e:\workspace3\gprspro\src\ortp\rtpsession_inet.c(140): warning C4013: “inet_aton”未定义；假设外部返回 int
+e:\workspace3\gprspro\src\ortp\rtpsession_inet.c(466): warning C4996: 'GetVersionExW': 被声明为已否决
+  d:\windows kits\10\include\10.0.17763.0\um\sysinfoapi.h(387): note: 参见“GetVersionExW”的声明
+e:\workspace3\gprspro\src\ortp\rtpsession_inet.c(1063): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  rtpsignaltable.c
+  rtptimer.c
+  scheduler.c
+  sessionset.c
+  str_utils.c
+  正在生成代码...
+  正在编译...
+  stun.c
+e:\workspace3\gprspro\src\ortp\stun.c(2802): warning C4267: “=”: 从“size_t”转换到“uint16_t”，可能丢失数据
+e:\workspace3\gprspro\src\ortp\stun.c(2804): warning C4267: “=”: 从“size_t”转换到“uint16_t”，可能丢失数据
+  stun_udp.c
+  telephonyevents.c
+  utils.c
+  zrtp.c
+  正在生成代码...
+  wavwriter.c
+LINK : fatal error LNK1104: 无法打开文件“wpcap.lib”

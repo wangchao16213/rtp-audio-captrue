@@ -1,0 +1,8 @@
+/.vs
+/build/1_packet.pcap
+/build/.vs
+/build/x64
+/build/**/*.amr
+/build/*.pcap
+/publish/*
+/publish

@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="..\src\ortp\avprofile.c">
+      <Filter>ortp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ortp\b64.c">
+      <Filter>ortp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ortp\event.c">
+      <Filter>ortp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ortp\jitterctl.c">
+      <Filter>ortp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ortp\netsim.c">
+      <Filter>ortp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ortp\ortp.c">
+      <Filter>ortp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ortp\ortp_srtp.c">
+      <Filter>ortp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ortp\payloadtype.c">
+      <Filter>ortp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ortp\port.c">
+      <Filter>ortp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ortp\posixtimer.c">
+      <Filter>ortp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ortp\rtcp.c">
+      <Filter>ortp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ortp\rtcpparse.c">
+      <Filter>ortp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ortp\rtpparse.c">
+      <Filter>ortp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ortp\rtpsession.c">
+      <Filter>ortp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ortp\rtpsession_inet.c">
+      <Filter>ortp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ortp\rtpsignaltable.c">
+      <Filter>ortp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ortp\rtptimer.c">
+      <Filter>ortp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ortp\scheduler.c">
+      <Filter>ortp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ortp\sessionset.c">
+      <Filter>ortp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ortp\str_utils.c">
+      <Filter>ortp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ortp\stun.c">
+      <Filter>ortp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ortp\stun_udp.c">
+      <Filter>ortp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ortp\telephonyevents.c">
+      <Filter>ortp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ortp\utils.c">
+      <Filter>ortp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ortp\zrtp.c">
+      <Filter>ortp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\core.cpp" />
+    <ClCompile Include="..\src\log.cpp" />
+    <ClCompile Include="..\src\wavwriter.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ortp">
+      <UniqueIdentifier>{bf3e43f2-0529-45c8-b75f-f2aee0a6bb33}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\ortp\b64.h">
+      <Filter>ortp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ortp\event.h">
+      <Filter>ortp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ortp\jitterctl.h">
+      <Filter>ortp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ortp\ortp.h">
+      <Filter>ortp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ortp\ortp_srtp.h">
+      <Filter>ortp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ortp\payloadtype.h">
+      <Filter>ortp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ortp\port.h">
+      <Filter>ortp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ortp\rtcp.h">
+      <Filter>ortp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ortp\rtp.h">
+      <Filter>ortp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ortp\rtpsession.h">
+      <Filter>ortp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ortp\rtpsession_priv.h">
+      <Filter>ortp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ortp\rtpsignaltable.h">
+      <Filter>ortp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ortp\rtptimer.h">
+      <Filter>ortp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ortp\scheduler.h">
+      <Filter>ortp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ortp\sessionset.h">
+      <Filter>ortp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ortp\str_utils.h">
+      <Filter>ortp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ortp\stun.h">
+      <Filter>ortp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ortp\stun_udp.h">
+      <Filter>ortp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ortp\telephonyevents.h">
+      <Filter>ortp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ortp\utils.h">
+      <Filter>ortp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ortp\zrtp.h">
+      <Filter>ortp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ortp\ortp-config-win32.h">
+      <Filter>ortp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\core.h" />
+    <ClInclude Include="..\src\log.h" />
+    <ClInclude Include="..\src\INIReader.h" />
+    <ClInclude Include="..\src\wavwriter.h" />
+  </ItemGroup>
+</Project>
